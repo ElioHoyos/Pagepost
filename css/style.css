@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(233, 248, 248);
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(152, 33, 33);
+}
+
+button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px;
+}
